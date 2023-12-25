@@ -4,7 +4,7 @@ job('seed') {
   }
   steps {
     dsl {
-      external('jobs/*.groovy')  
+      external('gr/*.groovy')  
       // default behavior
       // removeAction('IGNORE')      
       removeAction('DELETE')
